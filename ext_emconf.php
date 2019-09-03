@@ -6,47 +6,30 @@ $EM_CONF[$_EXTKEY] = array (
   'author' => 'FluidTYPO3 Team',
   'author_email' => 'claus@namelesscoder.net',
   'author_company' => '',
-  'shy' => '',
-  'dependencies' => '',
-  'conflicts' => '',
-  'priority' => '',
-  'module' => '',
-  'state' => 'stable',
-  'internal' => '',
-  'uploadfolder' => 0,
+  'state' => 'excludeFromUpdates',
+  'uploadfolder' => true,
   'createDirs' => '',
-  'modify_tables' => '',
-  'clearCacheOnLoad' => 0,
-  'lockType' => '',
-  'version' => '4.4.0',
-  'constraints' => 
+  'clearCacheOnLoad' => true,
+  'version' => '4.4.0-custom',
+  'constraints' =>
   array (
-    'depends' => 
+    'depends' =>
     array (
       'php' => '7.0.0-7.1.99',
       'typo3' => '7.6.13-8.7.99',
-    ),
-    'conflicts' => 
-    array (
-    ),
-    'suggests' => 
-    array (
-    ),
-  ),
-  'suggests' => 
-  array (
+    )
   ),
   '_md5_values_when_last_written' => '',
-  'autoload' => 
+  'autoload' =>
   array (
-    'psr-4' => 
+    'psr-4' =>
     array (
       'FluidTYPO3\\Vhs\\' => 'Classes/',
     ),
   ),
-  'autoload-dev' => 
+  'autoload-dev' =>
   array (
-    'psr-4' => 
+    'psr-4' =>
     array (
       'FluidTYPO3\\Vhs\\Tests\\' => 'Tests/',
     ),
